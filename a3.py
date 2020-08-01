@@ -87,7 +87,7 @@ def AI_move(state,available_move):
             possible_moves.remove(move)
             value = random_playout(possible_state,possible_moves)   ##gather the win/lose/draw information
             values.append(value[0]*2+value[2])
-    print(values)
+    #print(values)
     if AI== True:                                                   #first player
         return available_move[values.index(max(values))]            ##select the move with highest winning rate
     else:                                                           ##second player
@@ -137,7 +137,7 @@ def play_a_new_game():
                     board[user_move-1] = 'X'
                 print(board)
                 legal_move.remove(user_move-1)
-                print(legal_move)
+                #print(legal_move)
                 display(board)
                 value = check_three_in_a_row(board,user_move-1)
                 if value == -1:
@@ -149,7 +149,7 @@ def play_a_new_game():
                 break
         print("---------------------AI's turn--------------------")
         move = AI_move(board,legal_move)
-        print(legal_move)
+        #print(legal_move)
         print("AI choice: ",move+1)
         AI = True if len(legal_move)%2==1 else False                ##check if AI is 1st move or 2nd move
         if AI == True:
