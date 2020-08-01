@@ -3,6 +3,8 @@
 It is a simple AI that plays tic-tac-toe. 
 You can choose to play first or second hand againest the AI.
 
+Requirements: IDEs that can run python code
+
 The gameboard looks as follows.
 
 1 2 3
