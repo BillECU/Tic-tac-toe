@@ -1,6 +1,9 @@
 # Tic-tac-toe
 
-It is a simple AI that plays tic-tac-toe. 
+It is a simple AI that plays tic-tac-toe.
+
+Algorithm: MCT search.
+
 You can choose to play first or second hand againest the AI.
 
 Requirements: IDEs that can run python code
