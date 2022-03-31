@@ -1,6 +1,6 @@
 # Tic-tac-toe
 
-It is a simple AI that plays tic-tac-toe.
+AI that plays tic-tac-toe.
 
 Algorithm: MCT search.
 
