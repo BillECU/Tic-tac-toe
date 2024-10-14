@@ -26,5 +26,9 @@ O 2 3
 
 Hope you have a good time with my toy AI "_"
 
+### Demo
+![.](demo1.png)
+![.](demo2.png)
+
 
 
